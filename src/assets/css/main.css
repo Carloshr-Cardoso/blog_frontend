@@ -1,0 +1,164 @@
+/* TESTES DE CSS */
+
+.App {
+  text-align: center;
+}
+
+.form-text{
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* FIM TESTES DE CSS */
+
+/* Navbar */
+
+.navbar{
+  background-color: #8dd7cf;
+  /* background-color: rgb(37, 43, 54); */
+  height: auto;
+  font-size: 14px;
+}
+.right-text ul{
+  text-align: right;
+  margin: 0;
+}
+
+.right-text li{
+  display: inline-block;
+}
+
+.right-text a{
+  list-style-type: none;
+}
+
+.list-link{
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 3px 10px 3px 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.naming{
+  /* padding: 1rem; */
+  font-size: 32px;
+  font-family: theHistoria;
+  margin: auto 0;
+}
+
+.logo{
+  margin: auto 0;
+  cursor: pointer;
+}
+
+/* Post Preview Component */
+
+.preview{
+  width: 80%;
+  margin: 0 auto;
+  /* border: solid 1px gray; */
+}
+
+/* .create-buttom{
+  height: 40px;
+  width: 130px;
+
+  background-color:burlywood ;
+} */
+
+.buttom-text{
+  margin-top: 15px;
+  margin-left: 15px;
+  padding: 10px 20px 10px 20px;
+  background-color: #52b788 ;
+  border-radius: 5px;
+  color: #ffffff;
+  float: right;
+  cursor: pointer;
+}
+.cancel{
+  background-color: #b7525a ;
+}
+
+.buttom-place{
+  margin-top: 12px;
+  align-items: right;
+  /* margin-right: 25px; */
+}
+#plus{
+  margin-left: 15px;
+}
+
+
+/* teste Sidebar */
+.w3-sidebar{
+  height:auto;
+  width:200px;
+  background-color:none;
+  /* float: right; */
+  position:fixed!important;
+  right: 20%;
+  top: 20%;
+  z-index:1;
+  overflow:auto;
+  border-width: 1px;
+  border-color: green;
+  border-style: solid;
+}
+
+.w3-light-grey .w3-hover-light-grey:hover .w3-light-gray .w3-hover-light-gray:hover{
+  color:#000!important;
+  background-color:#f1f1f1!important
+}
+
+.w3-bar-block .w3-bar-item .sidebar-title{border-bottom:solid 1px;}
+.w3-bar-block .w3-dropdown-hover .w3-bar-block .w3-dropdown-click{width:100%}
+.w3-bar-block .w3-dropdown-hover .w3-dropdown-content .w3-bar-block .w3-dropdown-click .w3-dropdown-content{min-width:100%}
+.w3-bar-block .w3-dropdown-hover .w3-button .w3-bar-block .w3-dropdown-click .w3-button{width:100%;text-align:left;padding:8px 16px}
+.w3-bar-block .w3-bar-item{width:100%;display:block;padding:8px 16px;text-align:center;border:none;white-space:normal;float:none;outline:0}
+.w3-bar-block.w3-center .w3-bar-item{text-align:center}.w3-block{display:block;width:100%}
+
+/* Footer */
+
+.footer{
+  background-color: rgb(37, 43, 54);
+  height: 10rem;
+  color: #ffffff;
+  font-size: 13px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+}
+
+.footer ul{
+  padding: 0;
+  text-align: left;
+}
+
+.footer li.footer-list{
+  display: block;
+  padding: 5px;
+  margin: 10px;
+}
+
+.footer a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.copy{
+  margin-top: 30px;
+  text-align: right;
+}
+
+.footer .center{
+  text-align: center;
+}
+
+.footer .right{
+  text-align: right;
+}
